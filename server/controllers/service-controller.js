@@ -1,4 +1,5 @@
 const Service = require('../model/service-model')
+
 const services=async(req,resp)=>{
 try{
 const response = await Service.find();
